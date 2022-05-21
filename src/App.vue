@@ -1,28 +1,37 @@
 <template>
   <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <MenuWarren />
+    <BannerWarren />
+    <DestaqueWarren />
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import MenuWarren from './components/MenuWarren.vue';
+import BannerWarren from './components/BannerWarren.vue';
+import DestaqueWarren from './components/DestaqueWarren.vue';
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    MenuWarren,
+    BannerWarren,
+    DestaqueWarren,
   }
 }
 </script>
 
 <style>
 #app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
+  font-family: Arial;
+}
+
+button {
+  border-radius: 50px;
+  color: white;
+  background: black;
+  padding: 10px;
+  font-weight: bold;
+  border: none;
 }
 </style>
