@@ -1,6 +1,6 @@
 <template>
   <div class="menu">
-    <img alt="Logo" src="./../assets/logo2.png" />
+    <img alt="logo warren" src="./../assets/logo2.png" />
     <a href>Menu1</a>
     <div class="dropdown">
       <div class="dropbtn"><a href>Menu2</a></div>

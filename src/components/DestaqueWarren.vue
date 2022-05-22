@@ -1,15 +1,12 @@
 <template>
-  <div class="columns">
-    <div class="column main-column">
-        <img alt="destaque1" src="./../assets/img-premios.png" />
+  <div class="destaque">
+    <div class="mulher1">
+        <img alt="mulheres" src="./../assets/img-premios.png" />
     </div>
-    <div class="column">
+    <div class="mulher2">
         <h1>Finanças Femininas</h1>
-        <br>
         <p>Um guia completo para mulheres realizarem seus sonhos!</p>
         <p>Aprenda a só gastar com o que te faz feliz!</p>
-        <br>
-        <br>
         <p>Guardar dinheiro todos os meses e multiplicar o que foi poupado com os melhores investimentos!</p>
         <button>Comece Agora</button>
     </div>
@@ -18,40 +15,37 @@
 
 <script>
 export default {
-    name: "DestaqueWarren",
+    name: "DestaqueWarren"
 }
 </script>
 
 <style scoped>
-.columns {
+.destaque {
   display: flex;
+  justify-content: space-evenly;
 }
 
-img{
-  width: 400px;
-  height: 500px;
+img {
+  width:500px;
 }
 
-.column {
-  border: 5px solid #ccc;
-  flex: 1;
-  padding: 20px;
+.mulher1, .mulher2 {
+  border: 2px solid black;
 }
 
-.main-column {
-  flex: 2;
-  
+.mulher2{
+  width: 500px;
 }
 
 h1 {
-  font-size: 30px;
+  font-size:50px;
 }
 
 p{
     font-size: 20px;
 }
 
-button{
+button {
     background-color: #e02b57;
     border: none;
 }
