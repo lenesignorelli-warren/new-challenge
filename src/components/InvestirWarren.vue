@@ -1,40 +1,38 @@
 <template>
   <section class="container">
-      <div class="investir">
-          <h1>Investir é sobre você</h1>
-          <p>COMECE A INVESTIR EM POUCOS MINUTOS. DESCOMPLIQUE.</p>
-      </div>
-      <div class="button">
-          <button>Comece Agora</button>
-      </div>
+    <div class="investir">
+      <h1>Investir é sobre você</h1>
+      <p>COMECE A INVESTIR EM POUCOS MINUTOS. DESCOMPLIQUE.</p>
+    </div>
+    <div class="button">
+      <button>Saiba Mais</button>
+    </div>
   </section>
 </template>
 
 <script>
 export default {
-  name: "InvestirWarren"
+  name: "InvestirWarren",
 };
 </script>
 
 <style>
 .container {
-    background-color: #cdcaca;
-    display: flex;
-    justify-content: space-evenly;
-    padding: 50px;
-    color: white;
+  background-color: #cdcaca;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 50px;
+  color: white;
+  align-items: center;
 }
 
 .button {
-    display: flex;
-}
-
-.investir, .button {
-    border: 1px solid red;
+  display: flex;
+  height: 40px;
 }
 
 h1 {
-  font-size:50px;
+  font-size: 50px;
 }
 
 p {
